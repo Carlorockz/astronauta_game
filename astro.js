@@ -34,13 +34,13 @@ export function getAstroRect() {
 }
 /*Imagen Pierde*/
 export function setAstroLose() {
-  astroElem.src = "imgs/astronauta.png"
+  astroElem.src = "imgs/astronauta-lose.png"
 }
 
 /*Imagen Fija*/
 function handleRun(delta, speedScale) {
   if (isJumping) {
-    astroElem.src = `imgs/astronauta.png`
+    astroElem.src = `imgs/astronauta-stationary.png`
     return
   }
 
