@@ -24,7 +24,7 @@ function update(time) {
     return
   }
   const delta = time - lastTime
-
+ 
   updateGround(delta, speedScale)
   updateAstro(delta, speedScale)
   updateCactus(delta, speedScale)
